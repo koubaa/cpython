@@ -1,0 +1,54 @@
+---
+AlignAfterOpenBracket: Align
+AlignEscapedNewlines: Right
+AlignOperands:   true
+AlignTrailingComments: false
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AlwaysBreakAfterDefinitionReturnType: true
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortLoopsOnASingleLine: false
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterControlStatement: false
+  AfterFunction: true
+  AfterStruct: false
+  BeforeElse: true
+BreakStringLiterals: true
+ColumnLimit:     79
+DeriveLineEnding: true
+DisableFormat:   false
+IndentCaseLabels: false
+IndentGotoLabels: false
+IndentPPDirectives: None
+IndentWidth:     4
+IndentWrappedFunctionNames: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 2
+PointerAlignment: Right
+ReflowComments:  false
+SortIncludes:    true
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInConditionalStatement: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+StatementMacros:
+  - PyObject_HEAD
+  - _ABC_GET_CACHE_TOKEN_METHODDEF
+  - _ABC__ABC_INIT_METHODDEF
+  - _ABC__RESET_REGISTRY_METHODDEF
+  - _ABC__ABC_SUBCLASSCHECK_METHODDEF
+TabWidth:        4
+UseCRLF:         false
+UseTab:          Never
+...
+
